@@ -1,0 +1,8 @@
+{
+  "name": "ULSA_3er_Informe",
+  "main": "index.html",
+  "window": {
+    "kiosk": true,
+    "icon": "ulsa_logo.png"
+  }
+}

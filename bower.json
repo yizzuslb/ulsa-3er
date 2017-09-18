@@ -1,0 +1,33 @@
+{
+  "name": "ulsa-3er-comunicado",
+  "authors": [
+    "Javier Peña <foxnetorka@gmail.com>"
+  ],
+  "description": "3er Comunicado del Rector José Ramón Cubillas Romero.",
+  "main": "index.html",
+  "keywords": [
+    "ulsa",
+    "lasalle",
+    "victoria",
+    "rector",
+    "comunicado",
+    "3er"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.ulsavictoria.edu.mx",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+    "vegas": "^2.4.0",
+    "font-awesome": "^4.7.0",
+    "retinajs": "^2.1.2",
+    "nanogallery": "^5.10.3"
+  }
+}
