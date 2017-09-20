@@ -5,7 +5,13 @@ $(function() {
 		$galeria = $("#galeria"),
 		$3er = $("a[href='main']"),
 		$ulsa = $("a[href='ulsa']"),
-		btnCerrar = $("#cerrar");
+		btnCerrar = $("#cerrar"),
+		capitulo1 = $("#pdf1"),
+		capitulo2 = $("#pdf2"),
+		capitulo3 = $("#pdf3"),
+		capitulo4 = $("#pdf4"),
+		capitulo5 = $("#pdf5");
+		capitulo6 = $("#pdf6");
 
 	var backgrounds = [
     		{ src: 'imgs/bkg-1-sm.jpg', valign: 'bottom' },
@@ -16,6 +22,53 @@ $(function() {
     		home: "https://www.ulsavictoria.edu.mx/ComunicadoUlsa/",
     		ulsa: "http://www.ulsavictoria.edu.mx/"
     	};
+
+capitulo1.on('click',function(){
+			gui.Window.open ('pdfs/Revista_3ER_comunicadoRector2017_Digital_seccion1.pdf', {
+				position: 'center',
+				width: 500,
+				height: 500
+			});
+	});
+
+	capitulo2.on('click',function(){
+				gui.Window.open ('pdfs/Revista_3ER_comunicadoRector2017_Digital_seccion2.pdf', {
+					position: 'center',
+					width: 500,
+					height: 500
+				});
+		});
+
+	capitulo3.on('click',function(){
+				gui.Window.open ('pdfs/Revista_3ER_comunicadoRector2017_Digital_seccion3.pdf', {
+					position: 'center',
+					width: 500,
+					height: 500
+				});
+		});
+	capitulo4.on('click',function(){
+		gui.Window.open ('pdfs/Revista_3ER_comunicadoRector2017_Digital_seccion4.pdf', {
+		position: 'center',
+		width: 500,
+		height: 500
+		});
+	});
+	capitulo5.on('click',function(){
+			gui.Window.open ('pdfs/Revista_3ER_comunicadoRector2017_Digital_seccion5.pdf', {
+				position: 'center',
+				width: 500,
+				height: 500
+				});
+	});
+	capitulo6.on('click',function(){
+			gui.Window.open ('pdfs/Revista_3ER_comunicadoRector2017_Digital_seccion6.pdf', {
+				position: 'center',
+				width: 500,
+				height: 500
+				});
+	});
+
+
 
 
 	btnCerrar.on('click',function(){
