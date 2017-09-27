@@ -1,10 +1,34 @@
 {
   "name": "ULSA_3er_Informe",
+  "version": "0.1.0",
+  "description": "3er Informe del Rector ULSA",
   "main": "index.html",
+  "author": "Javier Peña y Arnoldo López",
+  "build": {
+        "nwVersion": "0.25.2"
+    },
+    "scripts": {
+        "dist": "build --tasks win-x86,win-x64,mac-x64 --mirror https://dl.nwjs.io/ .",
+        "start": "run --x64 --mirror https://dl.nwjs.io/"
+    },
   "window": {
     "kiosk": true,
-    "icon": "ulsa_logo.png"
-  }
+    "icon": "imgs/ulsa_logo.png"
+  },
+  "devDependencies": {
+    "nwjs-builder-phoenix": "^1.14.6"
+  },
+  "win": {
+      "productName": "3er_Informe_ULSA_Victoria",
+      "companyName": "ULSA_VICTORIA",
+      "icon": "imgs/ulsa_logo.ico"
+    },
+    "mac": {
+      "displayName": "3er_Informe_ULSA_Victoria",
+      "icon": "imgs/ulsa.logo.icns",
+      "plistStrings": {
+        "CFBundleIdentifier": "3er_Informe_Rector_ULSA",
+        "CFBundleDocumentTypes": []
+      }
 }
-
-    
+}
