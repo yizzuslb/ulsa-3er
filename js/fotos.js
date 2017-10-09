@@ -1,0 +1,28 @@
+var fotos = [
+	{
+        src: 'fotos/imagen-001.jpg',
+        title: 'Imagen 1',
+				src: 'fotos/imagen-002.jpg',
+        title: 'Imagen 2',
+				src: 'fotos/imagen-003.jpg',
+        title: 'Imagen 3',
+				src: 'fotos/imagen-004.jpg',
+        title: 'Imagen 4',
+				src: 'fotos/imagen-005.jpg',
+        title: 'Imagen 5',
+				src: 'fotos/imagen-006.jpg',
+        title: 'Imagen 6',
+				src: 'fotos/imagen-007.jpg',
+        title: 'Imagen 7',
+				src: 'fotos/imagen-008.jpg',
+        title: 'Imagen 8',
+				src: 'fotos/imagen-009.jpg',
+        title: 'Imagen 9',
+				src: 'fotos/imagen-010.jpg',
+        title: 'Imagen 10',
+				src: 'fotos/imagen-011.jpg',
+        title: 'Imagen 11',
+				src: 'fotos/imagen-012.jpg',
+        title: 'Imagen 12',
+    }
+];
