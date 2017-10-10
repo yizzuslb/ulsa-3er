@@ -91,11 +91,17 @@ capitulo1.on('click',function(){
 		slides: backgrounds
 	});
 
-	if($galeria.length >0)
+	if($galeria.length>0)
+		$galeria.nanoGallery({
+	        items: fotos
+	    });
+
+		/*
 		$galeria.nanoGallery({
 			kind: 'flickr',
 			userID: '144110804@N03',
 			photoset: '72157688310223665'
 		});
+		*/
 
 });
